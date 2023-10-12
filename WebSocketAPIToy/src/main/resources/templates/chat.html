@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>채팅 창</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         <button onclick="sendMessage()" class="send-button">전송</button>
     </div>
 
-    <script src="js/script.js"></script>
+    <script th:src="@{/js/script.js}"></script>
 </body>
 
 </html>
